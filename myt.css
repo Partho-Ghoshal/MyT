@@ -1,0 +1,110 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+}
+.left
+{
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    display: inline-block;
+    border: 3px solid rgb(255, 255, 255);
+    width: 100px;
+    height: 80px;
+    border-radius: 20px;
+}
+.left_image
+{
+    width: 100px;
+    height: 80px;
+    filter: invert(100%);
+}
+.middle
+{
+    display: block;
+    border: 5px solid rgb(195, 183, 183);
+    border-radius: 20px;
+    width: 33%;
+    margin: 20px auto;
+    background-color: black;
+    
+}
+.right
+{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    border: 3px solid rgb(183, 214, 186);
+    border-radius: 10px;
+    
+}
+.navbar
+{
+    display: inline-block;
+    
+}
+.navbar li
+{
+    display: inline-block;
+    margin: 0px 23px ;
+}
+.navbar li a
+{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+#first:hover
+{
+    color: rgb(204, 231, 52);
+}
+#second:hover
+{
+    color: rgb(204, 231, 52);
+}
+#third:hover
+{
+    color: rgb(204, 231, 52);
+}
+#fourth:hover
+{
+    color: rgb(204, 231, 52);
+}
+.btn
+{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid rgb(76, 68, 25);
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.btn:hover
+{
+    background-color: rgb(58, 60, 39);
+    color: blanchedalmond;
+}
+.container
+{
+    color: white;
+    margin: 100px 100px;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 30%;
+    padding: 30px 30px;
+}
+.info
+{
+    margin: 10px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
